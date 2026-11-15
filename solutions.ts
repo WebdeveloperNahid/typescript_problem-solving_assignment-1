@@ -5,3 +5,35 @@ function multiplyValue(value: number, multiplier?: number): number {
     return value * multiplier;
   }
 }
+
+function processInput(value: string | number | boolean): string | number {
+  if (typeof value === "string") {
+    const output = value.trim().toLowerCase();
+    return output;
+  } else if (typeof value === "number") {
+    const output = value * 10;
+    return output;
+  } else {
+    return value ? "Active" : "Inactive";
+  }
+}
+
+function formatCoordinate(
+  coordinate: readonly [number, number, string]
+): string {
+  const [latitude, longitude, locationName] = coordinate;
+  return `Location : ${locationName} ( ${latitude} , ${longitude} )`;
+}
+
+
+
+function concatenateArrays <T> (...arrays: T[][]): T[] {
+    const result: T[] = []
+
+    for (const arr of arrays){
+        for (const item of arr) {
+            result.push(item);
+        }
+    }
+    return result;
+}
