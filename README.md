@@ -43,7 +43,7 @@ This assignment practices core TypeScript concepts through small, focused proble
 ## Blog Posts
 
 1. [Understanding any, unknown, and never in TypeScript](./any-unknown-never.md)
-2. [Understanding Type Narrowing in TypeScript](./type-narrowing.md)
+2. [Understanding Type Narrowing in TypeScript](./type_narrowing-ts.md)
 
 ## Getting Started
 
