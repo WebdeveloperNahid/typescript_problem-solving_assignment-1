@@ -94,14 +94,3 @@ const validateAgeAsync = async (age: number): Promise<string> => {
   });
 };
 
-
-async function runTest(): Promise<void> {
-  console.log(await validateAgeAsync(20));
-  try {
-    await validateAgeAsync(15);
-  } catch (error) {
-    console.log(error);
-  }
-}
-
-runTest();
