@@ -24,7 +24,7 @@ function processValue(value: string | number): void {
 
 Here, TypeScript understands that value is a string in the first condition and a number in the else block.
 
-We can also use `instanceof` to check whether an object belongs to a particular class.
+Another way of Type Narrowing is using instanceof. I also learned that it helps us check whether an object is created from a particular class.
 
 ```ts
 class User {
