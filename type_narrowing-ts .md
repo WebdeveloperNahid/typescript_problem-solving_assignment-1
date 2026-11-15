@@ -28,7 +28,7 @@ We can also use `instanceof` to check whether an object belongs to a particular 
 
 ```ts
 class User {
-  name = "Tania";
+  name = "Omarfaruk";
 }
 
 const user = new User();

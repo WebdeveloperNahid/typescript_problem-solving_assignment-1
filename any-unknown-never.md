@@ -10,7 +10,7 @@ The `any` type allows us to assign different types of values to the same variabl
 
 ```ts
 let value: any = "Hello";
-value = 25;
+value = 35;
 value.toUpperCase();
 ```
 
